@@ -27,9 +27,25 @@ You just have to transfer the rules given into constraints that can be fed into 
 
 The Python script in [still_life.py](still_life.py) describes and solves the above puzzle. It uses [PySAT](https://pysathq.github.io/) to do so.
 
-## Requirements
+## Prerequisites
 
 - Python 3.10 or newer
+
+**Because a POSIX compatible environment is needed to build PySAT, PySAT won't run on Windows natively. Use Windows Subsystem for Linux (WSL) instead.
+
+### Linux (Ubuntu)/WSL
+
+```
+sudo apt-get install git python3
+pip install pipenv
+```
+
+### macOS
+
+```
+brew install git python3
+pip install pipenv
+```
 
 ## Install
 
@@ -38,6 +54,7 @@ git clone https://github.com/607011/still-life.git
 cd still_life
 pipenv install
 ```
+
 
 ## Run
 
