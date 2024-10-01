@@ -27,6 +27,9 @@ You just have to transfer the rules given into constraints that can be fed into 
 
 The Python script in [still_life.py](still_life.py) describes and solves the above puzzle. It uses [PySAT](https://pysathq.github.io/) to do so.
 
+## Requirements
+
+- Python 3.10 or newer
 
 ## Install
 
